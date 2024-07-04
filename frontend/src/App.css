@@ -1,0 +1,43 @@
+
+ *{
+  margin: 0;
+  padding: 0;
+}
+
+::-webkit-scrollbar {
+  width: 1px;
+}
+
+
+::-webkit-scrollbar-thumb {
+  background-color: white;
+}
+
+.ctnWrapper .container{
+  display:flex;
+  margin-top:150px;
+  align-items:center;
+  justify-content: center;
+  width: auto; /* Adjust width according to content */
+  margin-bottom: 30px;
+  color:black;
+}
+
+.container .formWrapper{
+  border: 1px solid #fff;
+  padding: 30px 30px;
+  border-radius:20px;
+  background:#fff;
+}
+
+.formWrappper form{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+h2{
+  text-align: center;
+  padding-bottom:10px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+} 
